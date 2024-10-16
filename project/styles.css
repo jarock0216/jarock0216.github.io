@@ -1,0 +1,84 @@
+/* Overall page styles */
+body {
+    font-size: 16px;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin: 0;
+}
+
+/* H1 styling */
+h1 {
+    background-color: lightblue;
+    text-align: center;
+    color: indigo;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: cornflowerblue;
+    font-size: 36px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+table {
+    background-color: indigo;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table td {
+    padding: 10px;
+}
+
+table a {
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: indigo;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    border-top: 2px solid lightblue;
+}
+
+/* Styling for active page (no link for current page) */
+td {
+    padding: 10px;
+}
+
+td > a {
+    background-color: indigo;
+    color: lightblue;
+    text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  align-items: center; /* Centers the items vertically */
+}
+
+img {
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto; /* Maintains the aspect ratio */
+}
