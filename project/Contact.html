@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact - Darryah's Doggy Dews</title>
+    <link rel="icon" href="http://clipart-library.com/images_k/dog-paw-print-transparent/dog-paw-print-transparent-21.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="http://clipart-library.com/images_k/dog-paw-print-transparent/dog-paw-print-transparent-21.png" width="50">
+            Contact Us
+            <img src="http://clipart-library.com/images_k/dog-paw-print-transparent/dog-paw-print-transparent-21.png" width="50">
+        </h1>
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td> <!-- Home link added -->
+                    <td><a href="About.html">About</a></td>
+                    <td><a href="Services.html">Services</a></td>
+                    <td><a href="Gallery.html">Gallery</a></td>
+                    <td>Contact</td> <!-- Current page -->
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p>For any inquiries, feel free to get in touch with us. We look forward to serving you and your furry friends!</p>
+            <ul>
+                <li><strong>Phone:</strong> (123) 456-7890</li>
+                <li><strong>Email:</strong> <a href="mailto:info@doggydews.com">info@doggydews.com</a></li>
+                <li><strong>Mobile Van Location:</strong> We are mobile! Contact us to schedule a visit to your area.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Business Hours</h2>
+            <ul>
+                <li><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</li>
+                <li><strong>Saturday:</strong> 10:00 AM - 4:00 PM</li>
+                <li><strong>Sunday:</strong> Closed</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+            <p>Use the form below to send us a message, and we'll get back to you as soon as possible.</p>
+            <form action="/submit-contact" method="post">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Your Phone Number (Optional):</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Darryah's Doggy Dews</p>
+        <!-- Links to validate HTML and CSS -->
+        <p>
+            <a href="https://validator.w3.org/">HTML Validator</a> |
+            <a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a>
+        </p>
+    </footer>
+</body>
+</html>
