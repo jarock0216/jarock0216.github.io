@@ -1,0 +1,125 @@
+/* Overall page styles */
+body {
+    font-size: 16px; /* Set base font size */
+    text-align: center; /* Center all text */
+    background-color: royalblue; /* Main background color */
+    color: white; /* Default text color */
+    margin: 0; /* Remove default margin */
+}
+
+/* Header styles */
+header {
+    text-align: center; /* Center header content */
+    margin: 0; /* No margin for header */
+}
+
+/* H1 styling */
+h1 {
+    background-color: lightblue; /* Light background for header */
+    color: indigo; /* Header text color */
+    text-decoration: underline; /* Underline header text */
+    font-size: 36px; /* Font size for header */
+    padding: 10px; /* Padding around header text */
+    margin-bottom: 20px; /* Space below header */
+}
+
+/* Navigation styles */
+nav {
+    display: flex; /* Use flexbox for nav layout */
+    justify-content: center; /* Center nav items */
+    margin-bottom: 20px; /* Space below navigation */
+}
+
+table {
+    background-color: indigo; /* Background color for nav table */
+    padding: 10px; /* Padding inside nav table */
+    border-radius: 10px; /* Rounded corners for nav */
+}
+
+table td {
+    padding: 10px; /* Space inside each table cell */
+}
+
+table a {
+    background-color: darkslateblue; /* Background color for links */
+    color: lightblue; /* Text color for links */
+    padding: 10px 20px; /* Padding for links */
+    font-size: 18px; /* Font size for links */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners for links */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Padding around main content */
+}
+
+/* Section styles */
+section {
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent background for sections */
+    border-radius: 8px; /* Rounded corners for sections */
+    margin: 15px 0; /* Space above and below sections */
+    padding: 15px; /* Padding inside sections */
+}
+
+/* Section heading styles */
+h2 {
+    color: lightblue; /* Color for section headings */
+}
+
+/* Footer styles */
+footer {
+    background-color: indigo; /* Footer background color */
+    padding: 10px; /* Padding inside footer */
+    margin-top: 20px; /* Space above footer */
+    color: white; /* Footer text color */
+    border-top: 2px solid lightblue; /* Top border for footer */
+}
+
+footer a {
+    color: lightblue; /* Color for footer links */
+}
+
+/* Button styles */
+input[type="submit"] {
+    background-color: darkslateblue; /* Background color for submit button */
+    color: lightblue; /* Text color for submit button */
+    border: none; /* No border for button */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue; /* Change background on hover */
+    color: darkslateblue; /* Change text color on hover */
+}
+
+/* Contact page form styling */
+form {
+    margin-top: 20px; /* Space above form */
+}
+
+label, input[type="text"], input[type="email"], textarea {
+    display: block; /* Block display for form elements */
+    margin: 10px auto; /* Center margin for elements */
+    font-size: 18px; /* Font size for labels and inputs */
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 80%; /* Width for input elements */
+    padding: 10px; /* Padding inside inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid lightblue; /* Border for inputs */
+}
+
+textarea {
+    height: 100px; /* Height for text area */
+}
+
+/* Contact details styling */
+.contact-info {
+    font-size: 18px; /* Font size for contact info */
+    margin-top: 20px; /* Space above contact info */
+    line-height: 1.5; /* Line height for readability */
+}
