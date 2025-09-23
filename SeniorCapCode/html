@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Doorbell Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Doorbell Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#alerts">Alerts</a></li>
+                <li><a href="#logs">Visitor Logs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="dashboard">
+        <h2>Dashboard</h2>
+        <div class="stats">
+            <div class="card">
+                <h3>Alerts Today</h3>
+                <p id="alerts-count">3</p>
+            </div>
+            <div class="card">
+                <h3>Unusual Foot Traffic</h3>
+                <p id="traffic-count">2</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="alerts">
+        <h2>Recent Alerts</h2>
+        <ul id="alert-list">
+            <li>Weapon detected at 10:32 AM</li>
+            <li>Mask detected at 11:15 AM</li>
+            <li>Suspicious movement at 12:04 PM</li>
+        </ul>
+    </section>
+
+    <section id="logs">
+        <h2>Visitor Logs</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Alert Type</th>
+                    <th>Snapshot</th>
+                </tr>
+            </thead>
+            <tbody id="log-table">
+                <tr>
+                    <td>2025-09-16 10:32</td>
+                    <td>Weapon</td>
+                    <td>Image Placeholder</td>
+                </tr>
+                <tr>
+                    <td>2025-09-16 11:15</td>
+                    <td>Mask</td>
+                    <td>Image Placeholder</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
