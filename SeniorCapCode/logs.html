@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visitor Logs - Smart Doorbell</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Visitor Logs</h1>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="alerts.html">Alerts</a></li>
+        <li><a href="logs.html" class="active">Visitor Logs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Visitor Logs</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Timestamp</th>
+          <th>Alert Type</th>
+          <th>Snapshot</th>
+        </tr>
+      </thead>
+      <tbody id="log-table">
+        <!-- Logs will load dynamically -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Smart Doorbell System</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
