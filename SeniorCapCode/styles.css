@@ -122,9 +122,10 @@ footer {
 }
 
 .login-container input {
-  width: 100%;
+  display: block;
+  width: 90%;
+  margin: 8px auto; 
   padding: 10px;
-  margin: 8px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
