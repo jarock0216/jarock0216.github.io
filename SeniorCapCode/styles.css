@@ -122,10 +122,9 @@ footer {
 }
 
 .login-container input {
-  display: block;
-  width: 90%;
-  margin: 8px auto; 
+  width: 100%;
   padding: 10px;
+  margin: 8px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -138,6 +137,12 @@ footer {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.login-container form button {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
 }
 
 .login-container button:hover {
